@@ -95,15 +95,6 @@ nav a {
 img {
 	border: 0.6em solid #004a99;
 	padding: 0.1em;	
-}
-@media only screen and (max-width: 1250px) {
-.main {
-	width: 95%;
-}
-aside {
-	display: none;
-	width: 1%;
-}
 } 
 article {
 	width: 99%;
@@ -147,11 +138,11 @@ aside {
 	width: 98%;
 }
 .square {
-	border: 0.8em solid #004a99;
+	border: 1.2em solid #004a99;
 	background-color: white;
 	font-weight: bold;
-	margin: 1em;
-	padding: 0.8em;
+	margin: 1.2em;
+	padding: 1em;
 	width: 30%;
 	float: left;	
 }
@@ -182,4 +173,12 @@ article li{
 	width: 6em;
 	float: left;
 ]
-
+@media only screen and (max-width: 1250px) {
+.main {
+	width: 95%;
+}
+aside {
+	display: none;
+	width: 1%;
+}
+}
